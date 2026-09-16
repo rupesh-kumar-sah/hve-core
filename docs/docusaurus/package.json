@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "npm run slides:sync && docusaurus start",
-    "build": "npm run slides:sync && docusaurus build",
+    "start": "node init && npm run slides:sync && docusaurus start",
+    "build": "node init && npm run slides:sync && docusaurus build",
     "slides:sync": "node scripts/slide-bundles.cjs",
     "swizzle": "docusaurus swizzle",
     "deploy": "npm run slides:sync && docusaurus deploy",
