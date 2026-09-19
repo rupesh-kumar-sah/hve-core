@@ -4,8 +4,8 @@
   "description": "Fixture project for the baseline-equivalence suite",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "build": "node scripts/build.js"
+    "start": "node init && node src/index.js",
+    "build": "node init && node scripts/build.js"
   },
   "license": "MIT"
 }

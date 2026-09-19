@@ -5,7 +5,7 @@
   "description": "Presentation-first, source-grounded HVE Core updates deck",
   "license": "MIT",
   "scripts": {
-    "build": "node build.mjs",
+    "build": "node init && node build.mjs",
     "bundle": "node bundle.mjs",
     "test": "node --test deck.test.cjs"
   },
